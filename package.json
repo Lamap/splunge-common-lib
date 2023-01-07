@@ -1,0 +1,17 @@
+{
+  "name": "splunge-common-lib",
+  "version": "1.0.0",
+  "description": "common types for splunge",
+  "main": "intex.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@lamap",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.8.1"
+  }
+}
