@@ -4,6 +4,6 @@ export enum ApiRoutes {
     SPG_POINTS_FETCH = '/points',
     SPG_IMAGE_CREATE = '/image',
     SPG_IMAGE_UPDATE_AND_DELETE = '/image/:id',
-    SPG_IMAGE_RENDER = 'image/:id/render',
+    SPG_IMAGE_RENDER = '/image/:id/render',
     SPG_IMAGES_FETCH = '/images',
 }
