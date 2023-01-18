@@ -7,3 +7,6 @@ export interface IPointCreateRequestBody {
 }
 export interface IImageUpdateRequestBody extends ISpgImage {}
 export interface IPointUpdateRequestBody extends ISpgPoint {}
+export interface ICreateImageRequestBody {
+    readonly widthPerHeightRatio: number;
+}

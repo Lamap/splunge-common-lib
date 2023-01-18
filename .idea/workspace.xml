@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb1250b6-9a21-4626-834d-b92032122972" name="Changes" comment="adjusting image fetch, create and render">
+    <list default="true" id="fb1250b6-9a21-4626-834d-b92032122972" name="Changes" comment="adjusting image and point crud types">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enums/ApiRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/ApiRoutes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Entities/ISpgImage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Entities/ISpgImage.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/interfaces/Requests/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Requests/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/interfaces/Responses/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Responses/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673096005462</updated>
       <workItem from="1673096007871" duration="19126000" />
-      <workItem from="1673281001043" duration="23189000" />
+      <workItem from="1673281001043" duration="26912000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1673098083138</created>
@@ -105,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673392637913</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="adjusting image and point crud types">
+      <created>1673569162570</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673569162570</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +137,7 @@
     <MESSAGE value="solve publishing issues" />
     <MESSAGE value="add point fetch" />
     <MESSAGE value="adjusting image fetch, create and render" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjusting image fetch, create and render" />
+    <MESSAGE value="adjusting image and point crud types" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusting image and point crud types" />
   </component>
 </project>

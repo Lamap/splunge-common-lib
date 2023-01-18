@@ -11,6 +11,7 @@ export interface IPointDeleteResponse {
     readonly deletedPointId: string;
 }
 export interface IImageUpdateResponse extends ISpgImage {}
+export interface IImageCreateResponse extends ISpgImage {}
 export interface IPointUpdateResponse extends ISpgPoint {}
 export interface IPointDetachResponse extends ISpgPoint {}
 export interface IPointAttachResponse extends Array<ISpgPoint> {}

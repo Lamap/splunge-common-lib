@@ -8,4 +8,5 @@ export interface ISpgImage {
     readonly title?: string;
     readonly tags?: ISpgTag[];
     readonly url: string;
+    readonly widthPerHeightRatio: number;
 }
