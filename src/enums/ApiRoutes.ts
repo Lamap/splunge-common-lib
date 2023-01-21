@@ -9,4 +9,6 @@ export enum ApiRoutes {
     SPG_IMAGE_FETCH = '/image/:id',
     SPG_DETACH_POINT_FROM_IMAGE = '/image/:id/point',
     SPG_ATTACH_IMAGE_TO_POINT = '/point/:pointId/image/:imageId',
+    SPG_POINT_OF_IMAGE = '/image/:id/point',
+    SPG_POINTS_BY_BOUNDS = '/points-by-bounds',
 }
