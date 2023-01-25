@@ -11,4 +11,6 @@ export enum ApiRoutes {
     SPG_ATTACH_IMAGE_TO_POINT = '/point/:pointId/image/:imageId',
     SPG_POINT_OF_IMAGE = '/image/:id/point',
     SPG_POINTS_BY_BOUNDS = '/points-by-bounds',
+    SPG_CREATE_USER = '/user',
+    SPG_LOG_USER_IN = '/login',
 }
