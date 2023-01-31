@@ -13,4 +13,5 @@ export enum ApiRoutes {
     SPG_POINTS_BY_BOUNDS = '/points-by-bounds',
     SPG_CREATE_USER = '/user',
     SPG_LOG_USER_IN = '/login',
+    SPG_LOG_USER_OUT = '/logout',
 }

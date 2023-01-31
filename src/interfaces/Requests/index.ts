@@ -14,3 +14,6 @@ export interface ICreateImageRequestBody {
 export interface IGetPointsByBoundsRequestBody extends ISpgLatLngBounds {}
 export interface ICreateUserRequestBody extends Pick<IUser, 'email' | 'password'> {}
 export interface ILoginUserRequestBody extends Pick<IUser, 'email' | 'password'> {}
+export interface ILogoutUserRequestBody {
+    readonly tokenId: string;
+}
