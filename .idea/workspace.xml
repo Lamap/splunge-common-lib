@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb1250b6-9a21-4626-834d-b92032122972" name="Changes" comment="authentication wip2">
+    <list default="true" id="fb1250b6-9a21-4626-834d-b92032122972" name="Changes" comment="use FB token for images so link fb images directly">
+      <change afterPath="$PROJECT_DIR$/src/enums/DateFormat.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/DateInformation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/DateInformation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Entities/ISpgImage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Entities/ISpgImage.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +62,8 @@
       <updated>1673096005462</updated>
       <workItem from="1673096007871" duration="19126000" />
       <workItem from="1673281001043" duration="35778000" />
-      <workItem from="1674647073124" duration="11711000" />
+      <workItem from="1674647073124" duration="12366000" />
+      <workItem from="1677705677114" duration="1482000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1673098083138</created>
@@ -144,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675206076385</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="use FB token for images so link fb images directly">
+      <created>1675602742802</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675602742802</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +188,7 @@
     <MESSAGE value="image page wip2" />
     <MESSAGE value="authentication wip1" />
     <MESSAGE value="authentication wip2" />
-    <option name="LAST_COMMIT_MESSAGE" value="authentication wip2" />
+    <MESSAGE value="use FB token for images so link fb images directly" />
+    <option name="LAST_COMMIT_MESSAGE" value="use FB token for images so link fb images directly" />
   </component>
 </project>

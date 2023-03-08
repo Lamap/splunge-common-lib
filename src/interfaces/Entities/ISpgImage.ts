@@ -1,8 +1,8 @@
-import { IDateInformationExact, IDateInformationRange } from '../DateInformation';
 import { ISpgTag } from '../ISpgTag';
+import { IDateInformation } from '../DateInformation';
 
 export interface ISpgImage {
-    readonly date?: IDateInformationExact | IDateInformationRange;
+    readonly date?: IDateInformation;
     readonly description?: string;
     readonly id: string;
     readonly title?: string;

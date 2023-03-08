@@ -1,7 +1,7 @@
-export interface IDateInformationRange {
-    readonly from: Date;
-    readonly to: Date;
-}
-export interface IDateInformationExact {
-    readonly on: Date;
+import { DateFormat } from '../enums';
+
+export interface IDateInformation {
+    readonly type: DateFormat;
+    readonly start: number;
+    readonly end?: number;
 }
