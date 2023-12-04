@@ -14,4 +14,5 @@ export enum ApiRoutes {
     SPG_CREATE_USER = '/user',
     SPG_LOG_USER_IN = '/login',
     SPG_LOG_USER_OUT = '/logout',
+    SPG_HEALTH_CHECK = '/health',
 }

@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb1250b6-9a21-4626-834d-b92032122972" name="Changes" comment="use FB token for images so link fb images directly">
-      <change afterPath="$PROJECT_DIR$/src/enums/DateFormat.ts" afterDir="false" />
+    <list default="true" id="fb1250b6-9a21-4626-834d-b92032122972" name="Changes" comment="adjust date">
+      <change afterPath="$PROJECT_DIR$/src/interfaces/IMetadata.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enums/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/DateInformation.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/DateInformation.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/ApiRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/ApiRoutes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/interfaces/Entities/ISpgImage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Entities/ISpgImage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Entities/ISpgPoint.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/Entities/ISpgPoint.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/ISpgTag.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ISpgTag.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,29 +25,34 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2K0053d1F5yDrormqmcUIHEnEsk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/akoslenkei/splunge-common-lib&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/akoslenkei/splunge-common-lib/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/akoslenkei/splunge-common-lib/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/akoslenkei/splunge-common-lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/akoslenkei/splunge-common-lib/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -63,7 +73,21 @@
       <workItem from="1673096007871" duration="19126000" />
       <workItem from="1673281001043" duration="35778000" />
       <workItem from="1674647073124" duration="12366000" />
-      <workItem from="1677705677114" duration="1482000" />
+      <workItem from="1677705677114" duration="4496000" />
+      <workItem from="1679985028121" duration="1809000" />
+      <workItem from="1682329657985" duration="594000" />
+      <workItem from="1683015077401" duration="598000" />
+      <workItem from="1683995297472" duration="1159000" />
+      <workItem from="1688024386164" duration="598000" />
+      <workItem from="1692007282463" duration="598000" />
+      <workItem from="1693597545355" duration="598000" />
+      <workItem from="1694077399102" duration="566000" />
+      <workItem from="1694425575519" duration="598000" />
+      <workItem from="1695801730895" duration="379000" />
+      <workItem from="1695891808426" duration="598000" />
+      <workItem from="1697781343533" duration="598000" />
+      <workItem from="1698140593220" duration="12000" />
+      <workItem from="1701707333275" duration="2255000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1673098083138</created>
@@ -156,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675602742802</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adjust date">
+      <created>1678318172067</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678318172067</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +220,7 @@
     <MESSAGE value="authentication wip1" />
     <MESSAGE value="authentication wip2" />
     <MESSAGE value="use FB token for images so link fb images directly" />
-    <option name="LAST_COMMIT_MESSAGE" value="use FB token for images so link fb images directly" />
+    <MESSAGE value="adjust date" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust date" />
   </component>
 </project>
